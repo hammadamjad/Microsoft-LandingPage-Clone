@@ -1,0 +1,299 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background: white;
+  width: 100%;
+  color: black;
+  font-size: 0.9375em;
+  line-height: 1.5;
+}
+
+/* Nav-Bar */
+.header {
+  width: 100%;
+  height: 56px;
+}
+
+.main-menu a,
+.right-menu a {
+  color: #262626;
+  text-decoration: none;
+  font-size: 13px;
+}
+
+.main-nav {
+  display: flex;
+  width: 90%;
+  height: 100%;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 48px 0 48px;
+}
+
+.logo {
+  height: 1.8em;
+  width: 7em;
+}
+
+.main-menu,
+.right-menu {
+  list-style: none;
+  display: flex;
+}
+
+.main-menu {
+  flex: 1;
+  margin-left: 20px;
+}
+
+.main-menu li,
+.right-menu li {
+  display: inline-block;
+  padding: 0 15px 0 15px;
+}
+
+/* section-1 */
+.section-1 {
+  width: 100%;
+  padding: 0 48px 0 48px;
+}
+.hero-1 {
+  height: 600px;
+  background: url("./images/img1.webp") no-repeat center center/cover;
+  width: 90%;
+  margin: auto;
+  padding: 0 0 0 55px;
+  display: flex;
+  flex-direction: column;
+}
+
+.items {
+  width: 100%;
+  margin: auto auto auto 0;
+}
+.items h1 {
+  display: inline-block;
+  padding-bottom: 5px;
+}
+
+.items p {
+  display: block;
+  padding-top: 5px;
+  padding-bottom: 10px;
+}
+.btn-hero1 {
+  background: black;
+  display: inline-block;
+  color: white;
+  padding: 10px 20px;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+/* section-2 */
+.section-2 {
+  width: 100%;
+  height: 400px;
+  padding: 0 48px 0 48px;
+  margin-top: 50px;
+}
+
+.hero-2 {
+  height: 100%;
+  width: 90%;
+  margin: auto;
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 20px;
+}
+.container-1 img {
+  width: 100%;
+}
+
+.container-1 a {
+  color: rgb(0, 93, 166);
+  font-weight: bold;
+  display: inline-block;
+  margin-top: 10px;
+}
+
+.container-1 span:hover {
+  cursor: pointer;
+  border-bottom: 5px solid rgb(0, 93, 166);
+  margin-right: 3px;
+}
+
+.container-1 h1 {
+  font-size: 20px;
+  display: inline-block;
+  margin-top: 23px;
+}
+
+/* section-3*/
+.section-3 {
+  width: 100%;
+  padding: 0 48px 0 48px;
+}
+.hero-3 {
+  height: 600px;
+  background: url("./images/img10.webp") no-repeat center center/cover;
+  width: 90%;
+  margin: auto;
+  padding: 0 0 0 55px;
+  display: flex;
+  flex-direction: column;
+}
+
+/* section-4 */
+.section-4 {
+  width: 100%;
+  height: 450px;
+  padding: 0 48px 0 48px;
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+}
+
+.hero-4 {
+  height: 90%;
+  width: 90%;
+  margin: auto;
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 20px;
+}
+.heading-sec4 {
+  width: 90%;
+  margin: auto;
+}
+
+/* section-5 */
+
+.section-5 {
+  width: 100%;
+  padding: 0 48px 0 48px;
+  margin-top: 20px;
+}
+.hero-5 {
+  height: 100%;
+  background: rgb(230, 230, 230);
+  width: 90%;
+  margin: auto;
+  padding: 15px 0;
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.hero-5 h4 {
+  font-size: 30px;
+  font-weight: normal;
+}
+.hero-5 a {
+  display: inline-block;
+  margin-top: 10px;
+}
+
+.hero-5 span:hover {
+  cursor: pointer;
+  border-bottom: 5px solid grey;
+  margin-right: 3px;
+}
+
+/* section-6 */
+
+.section-6 {
+  width: 100%;
+  padding: 0 48px 0 48px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.hero-6 {
+  height: 70px;
+  width: 90%;
+  margin: auto;
+  padding-top: 20px;
+  margin-top: 10px;
+  display: flex;
+}
+.hero-6 p {
+  display: inline-block;
+  padding-bottom: 5px;
+  align-self: flex-end;
+  padding-right: 10px;
+}
+
+.hero-6 img {
+  width: 40px;
+  padding-right: 10px;
+  align-self: flex-end;
+  padding-bottom: 5px;
+}
+
+/* footer */
+.footer {
+  background: rgb(230, 230, 230);
+  width: 100%;
+  height: 350px;
+  margin-top: 30px;
+}
+
+.hero-7 {
+  width: 90%;
+  margin: auto;
+  padding-top: 40px;
+}
+.top {
+  display: flex;
+  line-height: 2.5em;
+  padding-left: 30px;
+  margin-left: 20px;
+  margin-right: 20px;
+  padding-right: 20px;
+}
+.heading-aw {
+  font-weight: bold;
+}
+
+.top ul {
+  list-style-type: none;
+  padding: 0 30px 0 30px;
+  width: 300px;
+}
+
+.top ul li a {
+  text-decoration: none;
+  color: black;
+}
+
+.down {
+  display: flex;
+  margin-top: 20px;
+  height: 100%;
+  padding-left: 30px;
+  margin-left: 20px;
+  margin-right: 20px;
+  padding-right: 20px;
+  justify-content: space-between;
+}
+
+.down .right ul {
+  display: flex;
+  list-style-type: none;
+  justify-content: space-between;
+}
+
+.down .right ul li {
+  display: inline-block;
+  padding: 0 15px 0 15px;
+}
